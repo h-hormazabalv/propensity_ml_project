@@ -11,6 +11,7 @@
 
 * Change the dataset new path in block:
 
-  ```python
+ ```python
 path = "your path here"
-df   = spark.table(path).toPandas()
+df = spark.table(path).toPandas()
+```
